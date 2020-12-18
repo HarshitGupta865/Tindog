@@ -1,0 +1,183 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+/* Title */
+
+#title {
+  text-align: left;
+}
+
+.title-heading {
+  font-size: 2.9rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+/* Container */
+
+.container-fluid {
+  padding: 3% 15% 9%;
+}
+
+/* Sections */
+
+.colored-section {
+  color: white;
+  background-color: #ff4c68;
+}
+
+.white-section {
+  background-color: white;
+}
+
+/* Navigation bar */
+
+.navbar {
+  padding: 0 0 4rem;
+}
+
+.navbar-brand {
+  font-family: "ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+
+/* Download buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-image {
+ width: 23%;
+ transform: rotate(30deg);
+ position: absolute;
+}
+
+/* Features Section*/
+
+#features {
+  padding: 7% 15% 0.5%;
+  position: relative;
+}
+
+.head {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+
+}
+
+.icons {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icons:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  padding: 7% 17%;
+  background-color: #ef8172;
+}
+
+.testimonial-text {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 20%;
+  border-radius: 100%;
+  margin: 3%;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+
+#press {
+  background-color: #ef8172;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section*/
+
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+
+
+/* Call to action */
+
+#cta {
+  padding: 7% 15%;
+}
+
+/* Footer */
+
+#footer {
+  background-color: #fff;
+  padding: 7% 15%;
+}
+
+.social-icon {
+  margin: 20px 10px;
+  color: #ef8172;
+}
+
+.social-icon:hover {
+  color: #ff4c68;
+}
+
+@media screen and (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position:static;
+    transform: rotate(0);
+    width: 60%;
+  }
+}
